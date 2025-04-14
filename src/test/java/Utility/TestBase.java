@@ -17,6 +17,7 @@ public WebDriver driver;
 		Properties prop = new Properties();
 		prop.load(fis);
 		String url = prop.getProperty("QAUrl");
+		String url1 = prop.getProperty("QAUrl1");
 		String browser_properties = prop.getProperty("browser");
 		String browser_maven = System.getProperty("browser");
 		//ternary operatory - used to give priority as per needs
